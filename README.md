@@ -31,7 +31,7 @@ If pneumonia is detected, a RetinaNet model localizes the pneumonia regions via 
 
 RSNA Pneumonia Detection Challenge Dataset
 
-~26,000 de-identified chest X-ray images
+~26,000 chest X-ray images
 
 ## Evaluation
 
