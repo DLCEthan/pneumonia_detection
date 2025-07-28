@@ -25,7 +25,7 @@ If pneumonia is detected, a RetinaNet model localizes the pneumonia regions via 
 
 - mAP (test set): 0.21464
 
-        This would rank 24th out of ~340 participants in the original RSNA leaderboard.
+        This would rank 24th out of ~340 participants in the original Challenge leaderboard.
 
 ## Dataset
 
