@@ -5,9 +5,9 @@ This project aims to detect pneumonia in chest X-ray images using a two-stage de
 
 The pipeline is designed to:
 
-    Classify chest X-rays as Normal or Pneumonia.
+Classify chest X-rays as Normal or Pneumonia.
 
-    Detect and localize pneumonia regions using bounding boxes for enhanced clinical interpretability.
+Detect and localize pneumonia regions using bounding boxes for enhanced clinical interpretability.
 
 Our goal is to provide an assistive tool that can aid radiologists by flagging suspicious cases and visualizing potentially affected regions.
 # Model Architecture
@@ -19,36 +19,32 @@ Stage 2 – Detection:
 If pneumonia is detected, a RetinaNet model localizes the pneumonia regions via bounding boxes.
 ## Results
 
-    Accuracy: 88%
+- Accuracy: 88%
 
-    Recall: 81%
+- Recall: 81%
 
-    mAP (test set): 0.21464
+- mAP (test set): 0.21464
 
         This would rank 24th out of ~340 participants in the original RSNA leaderboard.
 
 ## Dataset
 
-    RSNA Pneumonia Detection Challenge Dataset
+RSNA Pneumonia Detection Challenge Dataset
 
-    ~26,000 de-identified chest X-ray images
-
-    Train/validation/test splits curated due to lack of public test set annotations
+~26,000 de-identified chest X-ray images
 
 ## Evaluation
 
-    Multi-threshold mean Average Precision (mAP) computed using IoU thresholds from 0.4 to 0.75
-
-    Custom evaluation logic handles special cases (e.g., missing predictions or annotations)
+- Multi-threshold mean Average Precision (mAP) computed using IoU thresholds from 0.4 to 0.75
 
 ## Tech Stack
 
-    Python, PyTorch
+Python, PyTorch
 
-    torchvision, albumentations
+torchvision,
 
 
-    Google Colab
+Google Colab
 
 ## Clinical Relevance
 
