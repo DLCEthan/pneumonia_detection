@@ -1,6 +1,8 @@
 # Pneumonia Detection from Chest X-rays (RSNA Challenge)
 
 This project aims to detect pneumonia in chest X-ray images using a two-stage deep learning pipeline combining classification and object detection. It follows the evaluation methodology of the RSNA Pneumonia Detection Challenge and demonstrates strong performance in identifying and localizing pneumonia-affected regions.
+
+Can also be viewed here in [Google Colab Python Notebook](https://colab.research.google.com/drive/1whTqYNnxa_3-dHy--xgFmJGk4wSH9119)
 # Project Overview
 
 The pipeline is designed to:
